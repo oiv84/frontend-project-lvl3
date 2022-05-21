@@ -1,0 +1,40 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "RSS aggregator",
+  "type": "module",
+  "main": "/src/init.js",
+  "scripts": {
+    "build": "NODE_ENV=production npx webpack",
+    "dev": "npx webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oiv84/frontend-project-lvl3.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Bootstrap",
+    "HTML",
+    "CSS"
+  ],
+  "author": "Ivan Opara <oiv84@icloud.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oiv84/frontend-project-lvl3/issues"
+  },
+  "homepage": "https://github.com/oiv84/frontend-project-lvl3#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-webpack-plugin": "^3.1.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
